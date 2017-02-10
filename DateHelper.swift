@@ -22,7 +22,7 @@ class DateHelper {
 
     static func currentDateToString() -> String {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "M-D-Y"
+        dateFormatter.dateFormat = "MM-dd-yyyy"
         let dateToday = Date()
         let returnString = dateFormatter.string(from: dateToday)
         return returnString
